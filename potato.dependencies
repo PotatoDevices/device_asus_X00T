@@ -1,0 +1,12 @@
+[
+  {
+    "repository": "KudProject/kernel_asus_sdm660",
+    "target_path": "kernel/asus/sdm660"
+  },
+
+  {
+    "repository": "KudProject/proprietary_vendor_asus",
+    "target_path": "vendor/asus",
+    "branch": "staging/pie"
+  }
+]
