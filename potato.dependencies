@@ -2,7 +2,7 @@
   {
     "repository": "kernel_asus_sdm660",
     "target_path": "kernel/asus/sdm660",
-    "branch": "lineage-16.0"
+    "branch": "baked-release"
   },
   {
     "repository": "KudProject/proprietary_vendor_asus",
