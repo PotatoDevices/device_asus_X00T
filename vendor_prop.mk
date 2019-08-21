@@ -176,7 +176,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # FM
 PRODUCT_PROPERTY_OVERRIDES += \
     vendor.hw.fm.init=0 \
-    vendor.fm.a2dp.conc.disabled=false \
+    ro.vendor.fm.use_audio_session=true \
     vendor.bluetooth.soc=cherokee
 
 # FRP
