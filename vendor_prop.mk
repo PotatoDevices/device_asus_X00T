@@ -301,6 +301,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.ril.ecclist=112,911 \
     ro.telephony.default_network=20,20 \
     telephony.lteOnCdmaDevice=1
+    persist.vendor.radio.flexmap_type=none
 
 # SurfaceFlinger
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
