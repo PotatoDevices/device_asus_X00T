@@ -10,11 +10,5 @@
     "branch":"ten",
     "repository": "bablusss/vendor_asus_X00TD",
     "target_path": "vendor/asus"
-  },
-  {
-    "repository": "packages_apps_PixelLiveWallpaper",
-    "target_path": "packages/apps/PixelLiveWallpaper",
-    "branch": "ten",
-    "remote": "pixel-gitlab"
   }
 ]
