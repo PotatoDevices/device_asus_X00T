@@ -7,8 +7,8 @@
   },
   {
     "remote":"github",
-    "branch":"ten",
-    "repository": "bablusss/vendor_asus_X00TD",
+    "branch":"croquette-release",
+    "repository": "bablusss/proprietary_vendor_asus",
     "target_path": "vendor/asus"
   }
 ]
