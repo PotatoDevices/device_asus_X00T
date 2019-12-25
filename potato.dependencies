@@ -1,14 +1,14 @@
 [
   {
     "remote":"github",
-    "branch":"ten",
-    "repository": "PixelExperience-Devices/kernel_asus_sdm660",
+    "branch":"croquette-release",
+    "repository": "PotatoDevices/kernel_asus_sdm660",
     "target_path": "kernel/asus/sdm660"
   },
   {
     "remote":"github",
     "branch":"ten",
-    "repository": "PixelExperience-Devices/vendor_asus_X00TD",
+    "repository": "bablusss/vendor_asus_X00TD",
     "target_path": "vendor/asus"
   },
   {
