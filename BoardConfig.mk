@@ -22,7 +22,7 @@
 # definition file).
 #
 
-DEVICE_PATH := device/asus/X00TD
+DEVICE_PATH := device/asus/X00T
 
 BOARD_VENDOR := asus
 
@@ -236,7 +236,7 @@ BOARD_USES_QCOM_HARDWARE := true
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/recovery.fstab
 
 # Releasetools
-TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_X00TD
+TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_X00T
 TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 
 # RIL
@@ -262,8 +262,8 @@ SELINUX_IGNORE_NEVERALLOWS := true
 TARGET_USE_SDCLANG := true
 
 # Vendor init
-TARGET_INIT_VENDOR_LIB := libinit_X00TD
-TARGET_RECOVERY_DEVICE_MODULES := libinit_X00TD
+TARGET_INIT_VENDOR_LIB := libinit_X00T
+TARGET_RECOVERY_DEVICE_MODULES := libinit_X00T
 
 # Wifi
 BOARD_HAS_QCOM_WLAN := true
@@ -282,4 +282,4 @@ WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 WIFI_HIDL_FEATURE_DISABLE_AP_MAC_RANDOMIZATION := true
 
 # inherit from the proprietary version
--include vendor/asus/X00TD/BoardConfigVendor.mk
+-include vendor/asus/X00T/BoardConfigVendor.mk
